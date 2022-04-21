@@ -1,1 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*
+Document
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+
+body{
+	padding-top: 25px;
+	background-color: #435953;
+}
+
+
+.info-box{
+	border-radius: 10px;
+	background-color: #BFB6A4;	
+}
+
+.info-text{
+	color:  #0D0D0D;
+	padding: 10px 20px;
+}
+
+.divider{
+	margin: 15px 0px;
+	background-color: #7E8C7B;
+}
+
+span.material-icons{
+	margin-right: 10px;
+}
+/*
+perfil
+*/
+
+.perfil{
+	margin-bottom: 50px;
+}
+
+.perfil img{
+	border-radius: 10px 10px 0px 0px;
+}
+
+/*
+experiencia
+*/
+.experiencia{
+	height: 275px;
+	margin-bottom: 25px;
+}
+
+
+/*
+educacao
+*/
+
+.educacao{
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+
+/*
+habilidade
+*/
+
+.habilidade{
+	height: 200px;
+}
+
+
+/*
+idioma
+*/
+
+.idioma{
+	height: 200px;
+}
