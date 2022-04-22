@@ -23,7 +23,7 @@
 							<h6 class="valign-wrapper"><span class="material-icons">home</span> Centro, São Leopoldo - RS</h6>
 							<h6 class="valign-wrapper"><span class="material-icons">business_center</span> Front End Developer</h6>
 							<div class="divider"></div>
-							<p>Sou estudante de Análise e Desenvolvimento de Sistemas na Unisinos, atualmente trabalho na equipe de sites do setor de marketing da Unisinos. Tenho ótimo conhecimento em desenvolvimento WEB e sempre tento aperfoiçoar aquilo que já sei, assim como compreender aquilo que nunca soube.</p>
+							<p>Sou estudante de Análise e Desenvolvimento de Sistemas na Unisinos, atualmente trabalho na equipe de sites do setor de marketing da Unisinos. Tenho ótimo conhecimento em desenvolvimento WEB e sempre tento aperfeiçoar aquilo que já sei, assim como compreender aquilo que nunca soube.</p>
 							<div class="divider"></div>
 							<h5>Contato</h5>
 							<h6 class="valign-wrapper"><span class="material-icons">phone_android</span> +55 51 99336-0850</h6>
@@ -33,17 +33,17 @@
 				</div>
 			</div>
 			<div class="col s12 m8">
-				<div class="info-box experiencia">
+				<div class="info-box experiencia z-depth-3">
 				</div>
-				<div class="info-box educacao">
+				<div class="info-box educacao z-depth-3">
 				</div>
 				<div class="row">
 					<div class="col s12 m6">
-						<div class="info-box habilidade">
+						<div class="info-box habilidade z-depth-3">
 						</div>
 					</div>
 					<div class="col s12 m6">
-						<div class="info-box idioma">
+						<div class="info-box idioma z-depth-3">
 						</div>
 					</div>
 				</div>
