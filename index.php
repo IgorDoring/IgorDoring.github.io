@@ -53,6 +53,29 @@
 					</div>
 				</div>
 				<div class="info-box educacao z-depth-3">
+					<div class="info-text">
+						<h4 class="valign-wrapper"><span class="material-icons">school</span> Educação</h4>
+						<div class="divider"></div>
+						<h6 class="valign-wrapper"><span class="material-icons">class</span> Análise e Desenvolvimento de Sistemas</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021 - <span class="atual">Atual</span></h6>
+						<h6 class="valign-wrapper"><span class="material-icons">business</span> Universidade do Vale do Rio dos Sinos</h6>
+						<p>Em andamento. Pretendo concluir antes do fim de 2025.</p>
+						<div class="divider"></div>
+						<h6 class="valign-wrapper"><span class="material-icons">class</span> Ciência da Computação</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">business</span> Universidade do Vale do Rio dos Sinos</h6>
+						<p>Incompleto. Resolvi parar pois percebi que tinha mais interesse no curso de análise e desenvolvimento de sistemas.</p>
+						<div class="divider"></div>
+						<h6 class="valign-wrapper"><span class="material-icons">class</span> Segurança da Informação</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2019 - 2021</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">business</span> Universidade do Vale do Rio dos Sinos</h6>
+						<p>Incompleto. Resolvi parar porque era uma daquelas situações onde eu só teria a oportunidade de arranjar emprego apenas depois que acabasse a o curso.</p>
+						<div class="divider"></div>
+						<h6 class="valign-wrapper"><span class="material-icons">class</span> Técnico em Informática</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2016 - 2019</h6>
+						<h6 class="valign-wrapper"><span class="material-icons">business</span> Escola Técnica Estadual Monteiro Lobato</h6>
+						<p>Completo.</p>
+					</div>
 				</div>
 				<div class="row">
 					<div class="col s12 m6">
