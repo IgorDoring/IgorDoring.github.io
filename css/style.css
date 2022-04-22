@@ -47,9 +47,6 @@ body{
 span.material-icons{
 	margin-right: 10px;
 }
-/*
-perfil
-*/
 
 .perfil img{
 	border-radius: 10px 10px 0px 0px;
@@ -58,5 +55,6 @@ perfil
 .experiencia span.atual{
 	padding: 5px 10px;
 	border-radius: 5px;
-	background-color: #c5c5c5;
+	color: white;
+	background-color: black;
 }
