@@ -2,23 +2,17 @@
 <html>
 <head>
 	<title>CV Igor Doring</title>
-
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col s12 m4">
-				<div class="info-box perfil z-depth-3">
-					<img class="responsive-img" src="img/img branco.jpg">
-				</div>
-
+				<img class="responsive-img perfil-img" src="img/foto-temp.jpg">
 				<div class="info-box perfil z-depth-3">
 					<div class="info-text">
 						<h5>Igor Doring de Paula</h5>
@@ -32,10 +26,10 @@
 						<h6 class="valign-wrapper"><span class="material-icons">email</span> igor.doring29@gmail.com</h6>
 					</div>
 				</div>
-
 				<div class="info-box habilidade z-depth-3">
 					<div class="info-text">
 						<h5>Qualificações</h5>
+						<div class="divider"></div>
 						<p>HTML, CSS, JS, PHP</p>
 						<div class="skill-bar"><p class="center-align" style="width: 90%;">90%</p></div>
 						<p>MySQL</p>
@@ -52,10 +46,10 @@
 						<div class="skill-bar"><p class="center-align" style="width: 40%;">40%</p></div>
 					</div>
 				</div>
-
 				<div class="info-box idioma z-depth-3">
 					<div class="info-text">
 						<h5>Idiomas</h5>
+						<div class="divider"></div>
 						<p>Português</p>
 						<div class="skill-bar"><p class="center-align">100%</p></div>
 						<p>English</p>
@@ -111,12 +105,36 @@
 						<p>Completo.</p>
 					</div>
 				</div>
+				<div class="info-box portfolio z-depth-3">
+					<div class="info-text">
+						<h4>Portfólio</h4>
+						<p>Conheça alguns projetos com quais eu já estive envolvido.</p>
+						<div class="divider"></div>
+						<div class="row">
+							<div class="col s12 m6 portfolio-card">
+								<a href="http://www.unisinos.br/sisgen/">
+									<p class="center-align">Sisgen Unisinos</p>
+									<img class="responsive-img" src="img/foto-temp.jpg">
+								</a>
+							</div>
+							<div class="col s12 m6 portfolio-card">
+								<a href="https://dayamoraes.com.br/">
+									<p class="center-align">Daya Moraes</p>
+									<img class="responsive-img" src="img/foto-temp.jpg">
+								</a>
+							</div>
+							<div class="col s12 m6 portfolio-card">
+								<a href="https://unisinos.apprbs.com.br/dtt">
+									<p class="center-align">Digital Transformation Technologies</p>
+									<img class="responsive-img" src="img/foto-temp.jpg">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-
-
-
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

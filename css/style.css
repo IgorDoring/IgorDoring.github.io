@@ -14,12 +14,12 @@ body{
 
 .info-box{
 	border-radius: 10px;
-	background-color: #fff;	
+	background-color: white;	
 	margin-bottom: 25px;
 }
 
 .info-text{
-	color:  #000;
+	color:  black;
 	padding: 10px 20px;
 }
 
@@ -30,7 +30,7 @@ body{
 .skill-bar{
 	margin-bottom: 10px;
 	border-radius: 10px;
-	background-color: grey;
+	background-color: #eee;
 }
 
 .skill-bar p{
@@ -44,17 +44,34 @@ body{
 	background-color: #eee;
 }
 
-span.material-icons{
-	margin-right: 10px;
+.perfil-img{
+	border-radius: 10px;
+	margin-bottom: 25px;
 }
 
-.perfil img{
-	border-radius: 10px 10px 0px 0px;
+span.material-icons{
+	margin-right: 10px;
 }
 
 .experiencia span.atual{
 	padding: 5px 10px;
 	border-radius: 5px;
 	color: white;
+	background-color: black;
+}
+
+.portfolio-card{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.portfolio-card img{
+	border-radius: 0px 0px 10px 10px;
+}
+
+.portfolio-card p{
+	padding: 15px 0px;
+	border-radius: 10px 10px 0 0;
+	color:  white;
 	background-color: black;
 }
