@@ -18,7 +18,6 @@
 				<div class="info-box perfil z-depth-3">
 					<img class="responsive-img" src="img/img branco.jpg">
 						<div class="info-text">
-
 							<h5>Igor Doring de Paula</h5>
 							<h6 class="valign-wrapper"><span class="material-icons">home</span> Centro, São Leopoldo - RS</h6>
 							<h6 class="valign-wrapper"><span class="material-icons">business_center</span> Front End Developer</h6>
@@ -33,17 +32,20 @@
 				</div>
 			</div>
 			<div class="col s12 m8">
-				<div class="info-box experiencia">
+				<div class="info-box experiencia z-depth-3">
+					<div class="info-text">
+						<h4>Experiência</h4>	
+					</div>
 				</div>
-				<div class="info-box educacao">
+				<div class="info-box educacao z-depth-3">
 				</div>
 				<div class="row">
 					<div class="col s12 m6">
-						<div class="info-box habilidade">
+						<div class="info-box habilidade z-depth-3">
 						</div>
 					</div>
 					<div class="col s12 m6">
-						<div class="info-box idioma">
+						<div class="info-box idioma z-depth-3">
 						</div>
 					</div>
 				</div>
