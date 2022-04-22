@@ -39,7 +39,7 @@ perfil
 */
 
 .perfil{
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .perfil img{
@@ -50,8 +50,17 @@ perfil
 experiencia
 */
 .experiencia{
-	height: 275px;
 	margin-bottom: 25px;
+}
+
+.experiencia h6{
+	font-weight: bold;
+}
+
+.experiencia span.atual{
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #c5c5c5;
 }
 
 
@@ -71,6 +80,7 @@ habilidade
 
 .habilidade{
 	height: 200px;
+	margin-bottom: 25px;
 }
 
 
@@ -80,4 +90,5 @@ idioma
 
 .idioma{
 	height: 200px;
+	margin-bottom: 25px;
 }
