@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/*
-Document
-*/
 *{
 	margin: 0;
 	padding: 0;
@@ -15,10 +12,10 @@ body{
 	background-color: #eee;
 }
 
-
 .info-box{
 	border-radius: 10px;
 	background-color: #fff;	
+	margin-bottom: 25px;
 }
 
 .info-text{
@@ -26,9 +23,20 @@ body{
 	padding: 10px 20px;
 }
 
-
 .info-text h6{
 	font-weight: bold;
+}
+
+.skill-bar{
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: grey;
+}
+
+.skill-bar p{
+	border-radius: 10px;
+	color: white;
+	background-color: black;
 }
 
 .divider{
@@ -43,52 +51,12 @@ span.material-icons{
 perfil
 */
 
-.perfil{
-	margin-bottom: 25px;
-}
-
 .perfil img{
 	border-radius: 10px 10px 0px 0px;
-}
-
-/*
-experiencia
-*/
-.experiencia{
-	margin-bottom: 25px;
 }
 
 .experiencia span.atual{
 	padding: 5px 10px;
 	border-radius: 5px;
 	background-color: #c5c5c5;
-}
-
-
-/*
-educacao
-*/
-
-.educacao{
-	margin-bottom: 25px;
-}
-
-
-/*
-habilidade
-*/
-
-.habilidade{
-	height: 200px;
-	margin-bottom: 25px;
-}
-
-
-/*
-idioma
-*/
-
-.idioma{
-	height: 200px;
-	margin-bottom: 25px;
 }
