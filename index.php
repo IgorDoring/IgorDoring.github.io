@@ -112,21 +112,21 @@
 						<div class="divider"></div>
 						<div class="row">
 							<div class="col s12 m6 portfolio-card">
-								<a href="http://www.unisinos.br/sisgen/">
-									<p class="center-align">Sisgen Unisinos</p>
-									<img class="responsive-img" src="img/foto-temp.jpg">
-								</a>
-							</div>
-							<div class="col s12 m6 portfolio-card">
 								<a href="https://dayamoraes.com.br/">
 									<p class="center-align">Daya Moraes</p>
-									<img class="responsive-img" src="img/foto-temp.jpg">
+									<img class="responsive-img" src="img/dayamoraes-agexcom.jpg">
 								</a>
 							</div>
 							<div class="col s12 m6 portfolio-card">
 								<a href="https://unisinos.apprbs.com.br/dtt">
 									<p class="center-align">Digital Transformation Technologies</p>
-									<img class="responsive-img" src="img/foto-temp.jpg">
+									<img class="responsive-img" src="img/dtt-unisinos.jpg">
+								</a>
+							</div>
+							<div class="col s12 m6 portfolio-card">
+								<a href="http://www.unisinos.br/sisgen/">
+									<p class="center-align">Sisgen Unisinos</p>
+									<img class="responsive-img" src="img/sisgen-unisinos.jpg">
 								</a>
 							</div>
 						</div>
