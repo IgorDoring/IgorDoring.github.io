@@ -12,6 +12,20 @@ body{
 	background-color: #eee;
 }
 
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
 .info-box{
 	border-radius: 10px;
 	background-color: white;	
@@ -23,7 +37,7 @@ body{
 	padding: 10px 20px;
 }
 
-.info-text h6{
+.info-text h6, .info-text h5{
 	font-weight: bold;
 }
 
@@ -53,7 +67,7 @@ span.material-icons{
 	margin-right: 10px;
 }
 
-.experiencia span.atual{
+span.atual{
 	padding: 5px 10px;
 	border-radius: 5px;
 	color: white;
@@ -74,4 +88,25 @@ span.material-icons{
 	border-radius: 10px 10px 0 0;
 	color:  white;
 	background-color: black;
+}
+
+.expandable span:last-child{
+	display: none;
+}
+
+@media (max-width: 601px){
+	.expandable{
+		position: relative;
+	}
+
+	.expandable span:last-child{
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		right: 0px;
+	}
+
+	.d-none{
+		display: none;
+	}
 }

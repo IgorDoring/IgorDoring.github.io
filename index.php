@@ -26,9 +26,13 @@
 						<h6 class="valign-wrapper"><span class="material-icons">email</span> igor.doring29@gmail.com</h6>
 					</div>
 				</div>
-				<div class="info-box habilidade z-depth-3">
+				<div class="info-box qualificacoes z-depth-3">
 					<div class="info-text">
-						<h5>Qualificações</h5>
+						<h5 class="valign-wrapper expandable">
+							<span class="material-icons">stars</span>
+							Qualificações
+							<span class="material-icons md-36">expand_more</span>
+						</h5>
 						<div class="divider"></div>
 						<p>HTML, CSS, JS, PHP</p>
 						<div class="skill-bar"><p class="center-align" style="width: 90%;">90%</p></div>
@@ -48,7 +52,11 @@
 				</div>
 				<div class="info-box idioma z-depth-3">
 					<div class="info-text">
-						<h5>Idiomas</h5>
+						<h5 class="valign-wrapper expandable">
+							<span class="material-icons">language</span>
+							Idiomas
+							<span class="material-icons md-36">expand_more</span> 
+						</h5>
 						<div class="divider"></div>
 						<p>Português</p>
 						<div class="skill-bar"><p class="center-align">100%</p></div>
@@ -62,7 +70,11 @@
 			<div class="col s12 m8">
 				<div class="info-box experiencia z-depth-3">
 					<div class="info-text">
-						<h4 class="valign-wrapper"><span class="material-icons">work_history</span> Experiência Profissional</h4>
+						<h5 class="valign-wrapper expandable">
+							<span class="material-icons">work_history</span> 
+							Experiência<br class="hide-on-med-and-up"> Profissional
+							<span class="material-icons md-36">expand_more</span> 
+						</h5>
 						<div class="divider"></div>
 						<h6 class="valign-wrapper"><span class="material-icons">work</span> Desenvolvedor Front-End</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021 - <span class="atual">Atual</span></h6>
@@ -72,7 +84,7 @@
 						<h6 class="valign-wrapper"><span class="material-icons">work</span> Estagiário Desenvolvedor WEB Full-stack</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2019-2021</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">business</span> AGEXCOM</h6>
-						<p>Fui responsável pela criação de sites e aplicações web. Também fui responsável pela manutenção do <a href="http://mescla.cc/o-mescla/"><b>Portal Mescla</b></a>.</p>
+						<p>Fui responsável pela criação de sites e aplicações web. Também fui responsável pela manutenção do <a href="http://mescla.cc/o-mescla/">Portal Mescla</a>.</p>
 						<div class="divider"></div>
 						<h6 class="valign-wrapper"><span class="material-icons">work</span> Auxiliar</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2019</h6>
@@ -80,9 +92,13 @@
 						<p>Fui responsável pela manutenção de computadores, assim como auxílio aos funcionários da escola quando fosse necessário.</p>
 					</div>
 				</div>
-				<div class="info-box educacao z-depth-3">
+				<div class="info-box formacao z-depth-3">
 					<div class="info-text">
-						<h4 class="valign-wrapper"><span class="material-icons">school</span> Formação</h4>
+						<h5 class="valign-wrapper expandable">
+							<span class="material-icons">school</span> 
+							Formação
+							<span class="material-icons md-36">expand_more</span> 
+						</h5>
 						<div class="divider"></div>
 						<h6 class="valign-wrapper"><span class="material-icons">class</span> Análise e Desenvolvimento de Sistemas</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021 - <span class="atual">Atual</span></h6>
@@ -107,7 +123,11 @@
 				</div>
 				<div class="info-box portfolio z-depth-3">
 					<div class="info-text">
-						<h4>Portfólio</h4>
+						<h5 class="valign-wrapper expandable">
+							<span class="material-icons">source</span>
+							Portfólio
+							<span class="material-icons md-36">expand_more</span> 
+						</h5>
 						<p>Conheça alguns projetos com quais eu já estive envolvido.</p>
 						<div class="divider"></div>
 						<div class="row">
@@ -135,6 +155,8 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery36.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
