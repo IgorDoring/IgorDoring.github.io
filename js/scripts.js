@@ -2,12 +2,10 @@ $(document).ready(function(){
 
 	$(".qualificacoes .info-text *:not(h5, h5 > *)").each(function () {
 			$(this).toggleClass("d-none");
-			$(this).fadeOut();
 		});
 
 	$(".qualificacoes .expandable").click(function () {
 		$(".qualificacoes .info-text *:not(h5, h5 > *)").each(function () {
-			$(this).fadeIn();
 			$(this).toggleClass("d-none");
 		});
 	});

@@ -84,7 +84,7 @@
 						<h6 class="valign-wrapper"><span class="material-icons">work</span> Estagiário Desenvolvedor WEB Full-stack</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2019-2021</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">business</span> AGEXCOM</h6>
-						<p>Fui responsável pela criação de sites e aplicações web. Também fui responsável pela manutenção do <a href="http://mescla.cc/o-mescla/">Portal Mescla</a>.</p>
+						<p>Fui responsável pela criação de sites e aplicações web. Também fui responsável pela manutenção do <a href="http://mescla.cc/o-mescla/" style="color: black;"><b>Portal Mescla</b></a>.</p>
 						<div class="divider"></div>
 						<h6 class="valign-wrapper"><span class="material-icons">work</span> Auxiliar</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2019</h6>
@@ -103,7 +103,7 @@
 						<h6 class="valign-wrapper"><span class="material-icons">class</span> Análise e Desenvolvimento de Sistemas</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021 - <span class="atual">Atual</span></h6>
 						<h6 class="valign-wrapper"><span class="material-icons">business</span> Universidade do Vale do Rio dos Sinos</h6>
-						<p>Em andamento. Pretendo concluir antes do fim de 2025.</p>
+						<p>Em andamento. Pretendo concluir antes do fim do ano de 2025.</p>
 						<div class="divider"></div>
 						<h6 class="valign-wrapper"><span class="material-icons">class</span> Ciência da Computação</h6>
 						<h6 class="valign-wrapper"><span class="material-icons">calendar_month</span> 2021</h6>
