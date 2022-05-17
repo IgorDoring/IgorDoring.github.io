@@ -63,7 +63,7 @@
 						<p>English</p>
 						<div class="skill-bar"><p class="center-align" style="width: 97%;">97%</p></div>
 						<p>Español</p>
-						<div class="skill-bar"><p class="center-align" style="width: 35%;">35%</p></div>
+						<div class="skill-bar"><p class="center-align" style="width: 15%;">15%</p></div>
 					</div>
 				</div>
 			</div>
