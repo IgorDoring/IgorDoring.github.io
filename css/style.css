@@ -16,6 +16,10 @@ b{
 	font-family: 'Roboto';
 }
 
+a{
+	color: black;
+}
+
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
@@ -52,6 +56,7 @@ b{
 }
 
 .skill-bar p{
+	height: 7px;
 	border-radius: 10px;
 	color: white;
 	background-color: black;
@@ -63,11 +68,16 @@ b{
 }
 
 .perfil-img{
+	display: none;
 	border-radius: 10px;
 	margin-bottom: 25px;
 }
 
 span.material-icons{
+	margin-right: 10px;
+}
+
+.fa-brands{
 	margin-right: 10px;
 }
 
