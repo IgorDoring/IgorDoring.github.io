@@ -97,17 +97,27 @@ a{
 	font-weight: bold;
 }
 
-.skill-bar{
-	margin-bottom: 10px;
-	border-radius: 10px;
-	background-color: #eee;
+img.skill-level{
+	max-width: 16px;
+	max-height: 16px;
 }
 
-.skill-bar p{
-	height: 8px;
-	border-radius: 10px;
-	color: white;
-	background-color: black;
+.skill-title{
+	color: #757575;
+	margin-bottom: 10px;
+}
+
+.skill-box{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.skills{
+	display: flex;
+	justify-content: start;
+	gap: 5px 12px;
+	flex-wrap: wrap;
 }
 
 .divider{
