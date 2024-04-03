@@ -102,15 +102,16 @@ img.skill-level{
 	max-height: 16px;
 }
 
-.skill-title{
-	color: #757575;
-	margin-bottom: 10px;
-}
 
-.skill-box{
+.diamond-box{
 	display: flex;
 	justify-content: center;
 	gap: 5px;
+}
+
+.gray-title{
+	color: #757575;
+	margin-bottom: 10px;
 }
 
 .skills{
@@ -176,7 +177,7 @@ span.atual{
 	display: none;
 }
 
-@media (max-width: 601px){
+@media screen and (max-width: 601px){
 	.expandable{
 		position: relative;
 	}
