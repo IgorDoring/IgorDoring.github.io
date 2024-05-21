@@ -1,53 +1,52 @@
-@font-face{
-	font-family: "Roboto";
-	src: url("../fonts/Roboto-Regular.ttf");
-	font-display: swap;
-}
-
-@font-face{
-	font-family: "Roboto";
-	src: url("../fonts/Roboto-Bold.ttf");
-	font-weight: bold;
-	font-display: swap;
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Material Icons';
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(../fonts/MaterialIcons-Regular.ttf) format("truetype");
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Roboto';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
-body{
-	padding-top: 25px;
-	background-color: #eee;
+body {
+  padding-top: 25px;
+  background-color: #eee;
 }
 
-b{
-	color: black;
-	font-family: 'Roboto';
+b {
+  color: black;
+  font-family: "Roboto";
 }
 
-a{
-	color: black;
+a {
+  color: black;
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -65,131 +64,146 @@ a{
   -moz-osx-font-smoothing: grayscale;
 
   /* Support for IE. */
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
 
 /* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 /* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
 
 /* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-
-.info-box{
-	border-radius: 10px;
-	background-color: white;	
-	margin-bottom: 25px;
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
 }
 
-.info-text{
-	color:  black;
-	padding: 10px 20px;
+.info-box {
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 25px;
 }
 
-.info-text h6, .info-text h5{
-	font-weight: bold;
+.info-text {
+  color: black;
+  padding: 10px 20px;
 }
 
-img.skill-level{
-	max-width: 16px;
-	max-height: 16px;
+.info-text h6,
+.info-text h5 {
+  font-weight: bold;
 }
 
-
-.diamond-box{
-	display: flex;
-	justify-content: center;
-	gap: 5px;
+img.skill-level {
+  max-width: 16px;
+  max-height: 16px;
 }
 
-.gray-title{
-	color: #757575;
-	margin-bottom: 10px;
+.diamond-box {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
-.skills{
-	display: flex;
-	justify-content: start;
-	gap: 5px 12px;
-	flex-wrap: wrap;
+.gray-title {
+  color: #757575;
+  margin-bottom: 10px;
 }
 
-.divider{
-	margin: 15px 0px;
-	background-color: #eee;
+.skills {
+  display: flex;
+  justify-content: start;
+  gap: 5px 12px;
+  flex-wrap: wrap;
 }
 
-.perfil-img{
-	display: none;
-	border-radius: 10px;
-	margin-bottom: 25px;
+.divider {
+  margin: 15px 0px;
+  background-color: #eee;
 }
 
-.perfil .info-text p{
-	padding: 5px 0;
+.perfil-img {
+  display: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
-.perfil .info-text p a img{
-	width: 24px;
-	margin-right: 5px;
+.perfil .info-text p {
+  padding: 5px 0;
 }
 
-
-span.material-icons{
-	margin-right: 10px;
+.perfil .info-text p a img {
+  width: 24px;
+  margin-right: 5px;
 }
 
-.fa-brands{
-	margin-right: 10px;
+span.material-icons {
+  margin-right: 10px;
 }
 
-span.atual{
-	padding: 5px 10px;
-	border-radius: 5px;
-	color: white;
-	background-color: black;
+.fa-brands {
+  margin-right: 10px;
 }
 
-.portfolio-card{
-	position: relative;
-	margin-bottom: 15px;
+span.atual {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
 }
 
-.portfolio-card img{
-	border-radius: 0px 0px 10px 10px;
+.portfolio-card {
+  position: relative;
+  margin-bottom: 15px;
 }
 
-.portfolio-card p{
-	padding: 15px 0px;
-	border-radius: 10px 10px 0 0;
-	color:  white;
-	background-color: black;
+.portfolio-card p {
+  padding: 15px 0px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  background-color: black;
 }
 
-.expandable span:last-child{
-	display: none;
+.portfolio-card img {
+  border-radius: 0px 0px 10px 10px;
 }
 
-@media screen and (max-width: 601px){
-	.expandable{
-		position: relative;
-	}
+.expandable span:last-child {
+  display: none;
+}
 
-	.expandable span:last-child{
-		cursor: pointer;
-		display: block;
-		position: absolute;
-		right: 0px;
-	}
+@media screen and (max-width: 601px) {
+  .expandable {
+    position: relative;
+  }
 
-	.d-none{
-		display: none;
-	}
+  .expandable span:last-child {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 0px;
+  }
+
+  .d-none {
+    display: none;
+  }
 }
