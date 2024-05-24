@@ -176,6 +176,11 @@ span.atual {
   margin-bottom: 15px;
 }
 
+.portfolio-card a{
+  display: block;
+  min-height: 250px;
+}
+
 .portfolio-card p {
   padding: 15px 0px;
   border-radius: 10px 10px 0 0;
@@ -184,6 +189,7 @@ span.atual {
 }
 
 .portfolio-card img {
+  aspect-ratio: auto 640/360;
   border-radius: 0px 0px 10px 10px;
 }
 
